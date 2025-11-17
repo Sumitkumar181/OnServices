@@ -3,7 +3,7 @@
 
 export default function HeroSection() {
     return (
-        <section className="w-full bg-[#f2f4f7] flex flex-col justify-center min-h-screen py-16 md:py-24 text-center px-4">
+        <section className="w-full bg-[#f2f4f7] flex flex-col justify-center min-h-screen py-4 sm:py-8 md:py-24 text-center px-4">
 
 
             <p className="text-sm md:text-base font-medium text-black">
