@@ -4,7 +4,12 @@
 export default function HeroSection() {
     return (
         <section className="w-full bg-[#f2f4f7] flex flex-col justify-center min-h-screen py-4 sm:py-8 md:py-24 text-center px-4">
-
+            <a
+                href="tel:18778431717"
+                className="text-white bg-blue-600 py-3 px-3 sm:px-4 rounded-full mb-4 font-medium text-base block md:hidden mt-2"
+            >
+                1-888-812-8678
+            </a>
 
             <p className="text-sm md:text-base font-medium text-black">
                 Managed IT Services Covering All 50 States
