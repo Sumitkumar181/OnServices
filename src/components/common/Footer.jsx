@@ -1,4 +1,5 @@
 import { Phone, Mail, Clock } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
@@ -6,7 +7,7 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-10">
                 
                 <div>
-                    <h2 className="text-xl  font-semibold">onServices</h2>
+                    <h2 className="text-xl  font-semibold">OnServices</h2>
                     <p className="mt-4 text-gray-700 text-sm leading-relaxed">
                         Professional IT Support & Managed
                         <br /> Services for Small Businesses
@@ -17,10 +18,10 @@ export default function Footer() {
                 <div>
                     <h3 className="text-lg font-semibold">Quick Links</h3>
                     <ul className="mt-4 space-y-2 text-gray-700 text-sm">
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Services</li>
-                        <li>Contact</li>
+                        <li><Link to="/" > Home</Link></li>
+                        <li><Link to="/about" >About Us</Link></li>
+                        <li> <Link to="/service" >Services</Link></li>
+                        <li><Link to="/contact" >Contact</Link></li>
                     </ul>
                 </div>
 
@@ -34,7 +35,7 @@ export default function Footer() {
                         </p>
                         <p className="flex items-center space-x-2">
                             <Mail size={16} className="text-blue-600" />
-                            <span>admin(at)onservice.us</span>
+                            <span>admin(at)onservices.us</span>
                         </p>
                     </div>
                 </div>

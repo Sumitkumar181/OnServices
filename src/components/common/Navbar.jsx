@@ -18,8 +18,8 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto flex items-center justify-between py-3 px-4">
 
                 
-                <div className="text-2xl font-semibold">
-                    on<span className="font-semibold">Services</span>
+                <div className="text-2xl font-bold">
+                    On<span className="font-bold">Services</span>
                 </div>
 
                 
