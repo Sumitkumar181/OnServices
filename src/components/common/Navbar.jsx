@@ -36,7 +36,7 @@ export default function Navbar() {
                             {item.name}
                         </Link>
                     ))}
-                    <a href="tel:18778431717" className="text-blue-500 font-medium text-base">
+                    <a href="tel:+18888128678" className="text-blue-500 font-medium text-base">
                         1-888-812-8678
                     </a>
                 </div>
@@ -83,7 +83,7 @@ export default function Navbar() {
                     ))}
 
                     <a
-                        href="tel:18778431717"
+                        href="tel:+18888128678"
                         className="text-blue-500 font-semibold text-lg"
                     >
                         1-888-812-8678

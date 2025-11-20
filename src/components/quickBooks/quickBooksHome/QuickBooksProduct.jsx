@@ -155,23 +155,27 @@ export default function QuickBooksProduct() {
                 <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
 
                     
-                    <div className="bg-[#d2dee3] p-10 rounded">
-                        <h2 className="text-3xl font-semibold leading-snug">
+                    <div className="bg-[#d2dee3] p-6 sm:p-8 md:p-10 rounded-xl space-y-6">
+
+                        <h2 className="text-2xl sm:text-3xl font-semibold leading-snug">
                             QuickBooks Proadvisor Help For Every Situation
                         </h2>
 
-                        <p className="mt-4 text-gray-700 leading-relaxed">
+                        <p className="text-gray-700 leading-relaxed text-base sm:text-lg">
                             From single user installs to complex, multi-user QuickBooks Enterprise
                             hosted setups, our award winning team of QuickBooks ProAdvisors has
                             you covered.
                         </p>
 
                         <a
-                            href="tel:18778431717"
-                            className="mt-8 bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-8 rounded-full ">
+                            href="tel:+18888128678"
+                            className="inline-block bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-8 rounded-full transition"
+                        >
                             Call Us At: 1-888-812-8678
                         </a>
+
                     </div>
+
 
                    
                     <div className="flex flex-col justify-center">
@@ -268,26 +272,35 @@ export default function QuickBooksProduct() {
                 <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
 
 
-                    <div className=" p-10 rounded">
-                        <h2 className="text-4xl font-extrabold leading-snug">
-                            Expert Quickbooks
+                    <div className="p-6 sm:p-8 md:p-10 rounded-xl space-y-6">
+
+                        
+                        <h2 className="text-3xl sm:text-4xl font-extrabold leading-snug">
+                            Expert QuickBooks
                         </h2>
 
-                        <p className="mt-4 text-black text-2xl font-semibold leading-relaxed">
+                        
+                        <p className="text-black text-xl sm:text-2xl font-semibold leading-relaxed">
                             Top Rated QuickBooks Solution Provider
                         </p>
-                        <ul class="list-disc pl-5 mt-4 text-lg">
+
+                        
+                        <ul className="list-disc pl-5 text-lg space-y-2 text-black">
                             <li>QuickBooks Setup Services</li>
                             <li>QuickBooks File Issues</li>
                             <li>QuickBooks Data Conversion</li>
                         </ul>
 
+                        
                         <a
-                            href="tel:18778431717"
-                            className="mt-8 bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-8 rounded-full ">
-                            Call Us for Limited Discount:1-888-812-8678
+                            href="tel:+18888128678"
+                            className="inline-block bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-8 rounded-full transition"
+                        >
+                            Call Us for Limited Discount: 1-888-812-8678
                         </a>
+
                     </div>
+
 
 
                     <div className="flex flex-col justify-center">

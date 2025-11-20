@@ -17,7 +17,7 @@ export default function CtaAction() {
 
                 
                 <a
-                    href="tel:1-877-843-1717"
+                    href="tel:+18888128678"
                     className="bg-white text-blue-600 font-semibold py-3 px-6 sm:px-8 rounded-full shadow-md 
                                 hover:shadow-lg transition text-sm sm:text-base inline-block"
                 >

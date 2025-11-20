@@ -6,26 +6,31 @@ export default function QuickBooksHero() {
       <div className="w-full bg-white text-black font-sans">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center py-20 px-6 gap-10">
               
-              <div className="flex-1">
-                  <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
+              <div className="flex-1 space-y-6">
+
+                  
+                  <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
                       Welcome to <br /> QuickBooks Solutions Provider
                   </h1>
 
+                  
+                  <a
+                      href="tel:+18888128678"
+                      className="inline-block bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold shadow hover:bg-green-700 transition"
+                  >
+                      Call Toll-Free: 1-888-812-8678
+                  </a>
 
-                  <p className="text-lg leading-relaxed mb-6">
+                  
+                  <p className="text-lg leading-relaxed">
                       Discover the perfect accounting and bookkeeping software for your
                       business. Get started with a free demo and expert consultation from
                       our Intuit QuickBooks® Certified ProAdvisors. Take your business to
                       the next level with QuickBooks®!
                   </p>
 
-
-                  <a
-                      href="tel:18778431717"
-                      className="bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold shadow hover:bg-green-700 transition">
-                      Call Toll-Free: 1-888-812-8678
-                  </a>
               </div>
+
 
 
               
