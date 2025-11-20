@@ -28,7 +28,7 @@ export default function Footer() {
                     <h3 className="text-lg font-semibold">Ouick Books</h3>
                     <ul className="mt-4 space-y-2 text-gray-700 text-sm">
                         <li><Link to="/quick-books" > Ouick Books Home</Link></li>
-                        <li><Link to="/about" >About Us</Link></li>
+                        <li><Link to="/quick-books/desktop" >Quick Books Desktop</Link></li>
                         <li> <Link to="/service" >Services</Link></li>
                         <li><Link to="/contact" >Contact</Link></li>
                     </ul>

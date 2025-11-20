@@ -7,6 +7,7 @@ import Contact from "../pages/Contact/Contact";
 import Blog from "../pages/Blogs/Blog";
 import BlogDetails from "../components/blogPageComponents/BlogDetails";
 import QuickBooksMain from "../components/quickBooks/quickBooksHome/QuickBooksMain";
+import QuickBooksDesktop from "../components/quickBooks/quickBooksDesktop/QuickBooksDesktop";
 
 
 
@@ -43,6 +44,10 @@ const AppRoutes = createBrowserRouter([
             {
                 path: "quick-books",
                 element: <QuickBooksMain/>
+            },
+            {
+                path: "quick-books/desktop",
+                element: <QuickBooksDesktop/>
             },
             
         ]

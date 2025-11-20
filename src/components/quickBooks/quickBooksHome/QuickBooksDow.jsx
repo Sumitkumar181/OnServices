@@ -324,9 +324,11 @@ export default function QuickBooksDow() {
                         </p>
 
 
-                        <button className="bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold shadow hover:bg-green-700 transition">
+                        <a
+                            href="tel:18778431717"
+                            className="bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold shadow hover:bg-green-700 transition">
                             Call Toll-Free: 1-888-812-8678
-                        </button>
+                        </a>
                     </div>
 
 
