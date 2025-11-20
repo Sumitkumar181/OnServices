@@ -26,9 +26,9 @@ const cards = [
 export default function OurServices() {
   return (
       <div className="w-full bg-white py-16 px-6 flex flex-col items-center text-center">
-          <h1 className="text-3xl md:text-4xl font-bold text-black mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
               Our Services
-          </h1>
+          </h2>
 
 
           <p className="max-w-3xl text-black text-lg leading-relaxed mb-12">

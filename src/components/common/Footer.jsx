@@ -24,6 +24,15 @@ export default function Footer() {
                         <li><Link to="/contact" >Contact</Link></li>
                     </ul>
                 </div>
+                <div>
+                    <h3 className="text-lg font-semibold">Ouick Books</h3>
+                    <ul className="mt-4 space-y-2 text-gray-700 text-sm">
+                        <li><Link to="/quick-books" > Ouick Books Home</Link></li>
+                        <li><Link to="/about" >About Us</Link></li>
+                        <li> <Link to="/service" >Services</Link></li>
+                        <li><Link to="/contact" >Contact</Link></li>
+                    </ul>
+                </div>
 
                 
                 <div>
@@ -38,11 +47,7 @@ export default function Footer() {
                             <span>admin(at)onservices.us</span>
                         </p>
                     </div>
-                </div>
-
-                
-                <div>
-                    <h3 className="text-lg font-semibold">Availability</h3>
+                    <h3 className="text-lg font-semibold mt-4">Availability</h3>
                     <p className="mt-4 text-gray-700 text-sm flex items-start space-x-2">
                         <Clock size={16} className="mt-1 text-blue-600" />
                         <span>
@@ -51,6 +56,9 @@ export default function Footer() {
                         </span>
                     </p>
                 </div>
+
+                
+                
             </div>
 
             

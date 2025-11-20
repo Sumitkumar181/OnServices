@@ -4,6 +4,9 @@ import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
 import Service from "../pages/Services/Service";
 import Contact from "../pages/Contact/Contact";
+import Blog from "../pages/Blogs/Blog";
+import BlogDetails from "../components/blogPageComponents/BlogDetails";
+import QuickBooksMain from "../components/quickBooks/quickBooksHome/QuickBooksMain";
 
 
 
@@ -28,6 +31,18 @@ const AppRoutes = createBrowserRouter([
             {
                 path: "contact",
                 element: <Contact/>
+            },
+            {
+                path: "blog",
+                element: <Blog/>
+            },
+            {
+                path: "blog/121",
+                element: <BlogDetails/>
+            },
+            {
+                path: "quick-books",
+                element: <QuickBooksMain/>
             },
             
         ]

@@ -30,9 +30,9 @@ export default function OurWork() {
     return (
         <div className="w-full bg-[#f3f2f2] py-16 px-6 flex flex-col items-center text-center">
            
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 We Specialize in Helping Businesses With 1 to 50 Employees.
-            </h1>
+            </h2>
 
             
             <p className="max-w-3xl text-gray-600 text-lg leading-relaxed mb-12">

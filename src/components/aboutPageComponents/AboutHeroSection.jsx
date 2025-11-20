@@ -30,9 +30,9 @@ export default function AboutHeroSection() {
     return (
         <div>
             <div className="w-full bg-[#f1efef] pb-10 pt-26  px-6 flex flex-col justify-end items-center text-center min-h-[40vh]">
-                <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                     About Us
-                </h1>
+                </h2>
 
 
                 <p className="max-w-3xl text-black text-lg leading-relaxed mb-12">
@@ -58,9 +58,9 @@ export default function AboutHeroSection() {
 
             <div className="w-full bg-[#f7f7f7] py-16 px-6 flex flex-col items-center text-center">
 
-                <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                     We Specialize in Helping Businesses With 1 to 50 Employees.
-                </h1>
+                </h2>
 
 
                 <p className="max-w-3xl text-black text-lg leading-relaxed mb-12">

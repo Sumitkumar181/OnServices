@@ -8,6 +8,7 @@ export default {
                 sans: ["Inter", "ui-sans-serif", "system-ui"],
                 audiowide: ["Audiowide", "sans-serif"],
                 sans: ['ui-sans-serif', 'system-ui'],
+                nunito: ['Nunito Sans', 'system-ui'],
             },
             colors: {
 
