@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
     return (
         <footer className="w-full bg-white border-t border-[#d1d1d1] pt-16 pb-8">
-            <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-10">
+            <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-10">
                 
                 <div>
                     <h2 className="text-xl  font-semibold">OnServices</h2>
@@ -29,8 +29,19 @@ export default function Footer() {
                     <ul className="mt-4 space-y-2 text-gray-700 text-sm">
                         <li><Link to="/quick-books" > Ouick Books Home</Link></li>
                         <li><Link to="/quick-books/desktop" >Quick Books Desktop</Link></li>
-                        <li> <Link to="/service" >Services</Link></li>
-                        <li><Link to="/contact" >Contact</Link></li>
+                        <li><Link to="/quick-books/enterprise" >Quick Books Enterprise</Link></li>
+                        <li><Link to="/quick-books/accountant" >Quick Books Accountant</Link></li>
+                        <li><Link to="/quick-books/point-of-scale" >Quick Books Point-of-Scale</Link></li>
+                        <li><Link to="/quick-books/payroll" >Quick Books Payroll</Link></li>
+                        <li><Link to="/quick-books/self-employed" >Quick Books Self-Employed</Link></li>
+                        <li><Link to="/quick-books/cloud-hosting" >Quick Books Cloud Hosting</Link></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 className="text-lg font-semibold">More Links</h3>
+                    <ul className="mt-4 space-y-2 text-gray-700 text-sm">
+                        <li><Link to="/Vigilorax" >Vigilorax</Link></li>
+                        
                     </ul>
                 </div>
 

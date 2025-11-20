@@ -1,5 +1,6 @@
 import React from 'react'
 import deskpreplus from "../../../assets/desk-preplus.png"
+import expertise from "../../../assets/expertise.jpg"
 import { BsBank } from "react-icons/bs";
 import { TbReportSearch } from "react-icons/tb";
 import { LiaFileInvoiceSolid } from "react-icons/lia";
@@ -14,6 +15,45 @@ import { GrUserAdmin } from "react-icons/gr";
 import { FiUsers } from "react-icons/fi";
 
 
+
+const WhyChoose = [
+    {
+        img: expertise,
+        title: "Proven Expertise and Reputation",
+        text: `With a rich history of delivering QuickBooks Desktop solutions, our company stands out for its unwavering commitment to providing reliable and effective financial management solutions. Our track record is a testament to our expertise, and countless satisfied clients endorse our capabilities.`,
+    },
+    {
+        img: expertise,
+        title: "Certification of Excellence",
+        text: `Our team is comprised of certified QuickBooks Desktop experts, ensuring that our clients benefit from the highest level of proficiency and knowledge in utilizing the software for their business needs.`,
+    },
+    {
+        img: expertise,
+        title: "Tailored Solutions and Seamless Integration",
+        text: `Customizing QuickBooks Desktop to align seamlessly with your unique business requirements is our forte. We offer a range of customization options to optimize the software for your specific workflows, and our solutions integrate seamlessly with other essential tools and software commonly used in your industry.`,
+    },
+    {
+        img: expertise,
+        title: "Comprehensive Training and Support",
+        text: `Mastering QuickBooks Desktop is crucial, and we support our clients through the journey. Our comprehensive training programs and ongoing support empower clients to navigate the software with confidence and efficiency.`,
+    },
+    {
+        img: expertise,
+        title: "Cutting-Edge Knowledge",
+        text: `Staying ahead of the curve, we are dedicated to staying informed about the latest updates and features in QuickBooks Desktop. This commitment allows us to offer our clients cutting-edge solutions that leverage the full potential of the software.`,
+    },
+    {
+        img: expertise,
+        title: "Data Security and Compliance Assurance",
+        text: `Security of financial data is our top priority. Our services are designed with a robust focus on data security, and we guarantee compliance with all relevant regulations, providing you with the assurance of a secure and compliant financial environment.`,
+    },
+    {
+        img: expertise,
+        title: "Cost-Effective Excellence",
+        text: `Our services not only deliver efficiency but also cost-effectiveness. We provide solutions that offer exceptional value for money, enabling your business to leverage the full spectrum of QuickBooks Desktop without exceeding your budget.`,
+    },
+    
+];
 
 
 
@@ -145,7 +185,7 @@ export default function QuickBooksDesktop() {
                                 href="tel:+18888128678"
                                 className="px-8 py-4 bg-[#0ca573] rounded-full text-white font-semibold text-lg shadow-lg hover:bg-[#0f8860] transition"
                             >
-                                Call Us At: 1-888-830-5278
+                                Call Us At: 1-888-812-8678
                             </a>
 
                             <button className="px-8 py-4 rounded-full border border-gray-400 text-gray-300 font-semibold text-lg hover:bg-gray-700 transition">
@@ -202,6 +242,81 @@ export default function QuickBooksDesktop() {
                     </div>
                 ))}
             </div>
+
+            <div className="w-full bg-white flex flex-col justify-center items-center text-center pt-16 px-4">
+                <h2 className="text-3xl md:text-5xl font-extrabold text-black mb-4">
+                    Why Choose Evergreen Accounting <br></br> for QuickBooks Desktop?
+                </h2>
+
+
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3  gap-8 max-w-7xl w-full py-6 mx-auto">
+                {WhyChoose.map((term, index) => (
+                    <div
+                        key={index}
+                        className="shadow-md max-w-7xl px-4 w-full mx-auto  text-left  py-8 "
+                    >
+
+                        <img src={term.img} alt={term.img} className='' />
+
+
+                        <h2 className="text-2xl font-bold mt-6 text-gray-900 mb-3">
+                            {term.title}
+                        </h2>
+
+
+                        <p className="text-black  text-lg">{term.text}</p>
+                    </div>
+                ))}
+            </div>
+
+            <div
+                className="relative w-full bg-cover bg-center bg-no-repeat"
+                style={{
+                    backgroundImage: `url(${expertise})`,
+                }}
+            >
+                
+                <div className="absolute inset-0 bg-black/70 bg-opacity-70"></div>
+
+               
+                <div className="relative z-10 max-w-4xl mx-auto text-center text-white py-20 px-4 space-y-6">
+
+                   
+                    <h2 className="text-3xl md:text-5xl font-extrabold tracking-wide">
+                        TALK TO THE EXPERTS
+                    </h2>
+
+                    
+                    <p className="text-lg md:text-xl leading-relaxed">
+                        Get your issue resolved quickly with access<br />
+                        to first-class professionals that know how to help.
+                    </p>
+
+                    
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+
+                        
+                        <button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-full shadow transition">
+                            Chat With US
+                        </button>
+
+                        
+                        <a
+                            href="tel:+18888128678"
+                            className="border-2 border-white text-white font-semibold py-3 px-8 rounded-full hover:bg-white hover:text-black transition"
+                        >
+                            Call Us: 1-888-812-867
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            
 
         </div>
     )

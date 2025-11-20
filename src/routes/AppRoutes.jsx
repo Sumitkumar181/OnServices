@@ -8,6 +8,7 @@ import Blog from "../pages/Blogs/Blog";
 import BlogDetails from "../components/blogPageComponents/BlogDetails";
 import QuickBooksMain from "../components/quickBooks/quickBooksHome/QuickBooksMain";
 import QuickBooksDesktop from "../components/quickBooks/quickBooksDesktop/QuickBooksDesktop";
+import VigiloraxHero from "../components/VigiloraxComponents/VigiloraxHero";
 
 
 
@@ -48,6 +49,34 @@ const AppRoutes = createBrowserRouter([
             {
                 path: "quick-books/desktop",
                 element: <QuickBooksDesktop/>
+            },
+            {
+                path: "quick-books/enterprise",
+                element: <QuickBooksDesktop />
+            },
+            {
+                path: "quick-books/accountant",
+                element: <QuickBooksDesktop />
+            },
+            {
+                path: "quick-books/point-of-scale",
+                element: <QuickBooksDesktop />
+            },
+            {
+                path: "quick-books/payroll",
+                element: <QuickBooksDesktop />
+            },
+            {
+                path: "quick-books/self-employed",
+                element: <QuickBooksDesktop />
+            },
+            {
+                path: "quick-books/cloud-hosting",
+                element: <QuickBooksDesktop />
+            },
+            {
+                path: "Vigilorax",
+                element: <VigiloraxHero/>
             },
             
         ]
