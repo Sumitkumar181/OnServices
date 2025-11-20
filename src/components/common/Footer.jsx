@@ -78,8 +78,8 @@ export default function Footer() {
                     <p>© 2025 onService. All rights reserved.</p>
 
                     <div className="mt-2 space-x-6">
-                        <a href="#" className="hover:text-blue-600">Privacy Policy</a>
-                        <a href="#" className="hover:text-blue-600">Refund Policy</a>
+                        <Link to="/privacy-policy" className="hover:text-blue-600">Privacy Policy</Link>
+                        <Link to="/refund-policy" className="hover:text-blue-600">Refund Policy</Link>
                     </div>
                 </div>
             </div>

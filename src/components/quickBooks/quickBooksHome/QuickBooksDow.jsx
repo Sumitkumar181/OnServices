@@ -312,9 +312,9 @@ export default function QuickBooksDow() {
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center py-20 px-6 gap-10">
 
                     <div className="flex-1">
-                        <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
+                        <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
                             How We Support Your <br /> Business with QuickBooks
-                        </h1>
+                        </h2>
                         <p className="mb-6 text-black text-2xl font-semibold uppercase leading-relaxed">
                             Unlock exclusive pricing on all Intuit QuickBooks products and solutions.
                         </p>

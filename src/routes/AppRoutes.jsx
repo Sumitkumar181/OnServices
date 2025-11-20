@@ -9,6 +9,8 @@ import BlogDetails from "../components/blogPageComponents/BlogDetails";
 import QuickBooksMain from "../components/quickBooks/quickBooksHome/QuickBooksMain";
 import QuickBooksDesktop from "../components/quickBooks/quickBooksDesktop/QuickBooksDesktop";
 import VigiloraxHero from "../components/VigiloraxComponents/VigiloraxHero";
+import PrivacyPage from "../components/privacyPolicyComponents/PrivacyPage";
+import RefundPolicy from "../components/privacyPolicyComponents/RefundPolicy";
 
 
 
@@ -78,7 +80,15 @@ const AppRoutes = createBrowserRouter([
                 path: "Vigilorax",
                 element: <VigiloraxHero/>
             },
+            {
+                path: "privacy-policy",
+                element: <PrivacyPage/>
+            },
             
+            {
+                path: "refund-policy",
+                element: <RefundPolicy/>
+            },
         ]
     }
 ])
