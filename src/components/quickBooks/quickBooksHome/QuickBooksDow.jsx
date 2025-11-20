@@ -325,7 +325,7 @@ export default function QuickBooksDow() {
 
 
                         <button className="bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold shadow hover:bg-green-700 transition">
-                            Call Toll-Free: 1-888-830-5278
+                            Call Toll-Free: 1-888-812-8678
                         </button>
                     </div>
 
@@ -367,7 +367,7 @@ export default function QuickBooksDow() {
 
 
                         <button className="bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold shadow hover:bg-green-700 transition">
-                            Call To Connect: 1-888-830-5278
+                            Call To Connect: 1-888-812-8678
                         </button>
                     </div>
                 </div>
@@ -388,7 +388,7 @@ export default function QuickBooksDow() {
 
 
                         <button className="bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold shadow hover:bg-green-700 transition">
-                            Call Us For Limited Discount: 1-888-830-5278
+                            Call Us For Limited Discount: 1-888-812-8678
                         </button>
                     </div>
 
