@@ -166,9 +166,11 @@ export default function QuickBooksProduct() {
                             you covered.
                         </p>
 
-                        <button className="mt-8 bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-8 rounded-full ">
+                        <a
+                            href="tel:18778431717"
+                            className="mt-8 bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-8 rounded-full ">
                             Call Us At: 1-888-812-8678
-                        </button>
+                        </a>
                     </div>
 
                    
@@ -280,9 +282,11 @@ export default function QuickBooksProduct() {
                             <li>QuickBooks Data Conversion</li>
                         </ul>
 
-                        <button className="mt-8 bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-8 rounded-full ">
+                        <a
+                            href="tel:18778431717"
+                            className="mt-8 bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-8 rounded-full ">
                             Call Us for Limited Discount:1-888-812-8678
-                        </button>
+                        </a>
                     </div>
 
 
