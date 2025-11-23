@@ -76,12 +76,12 @@ export default function VigiloraxHero() {
                     </div>
                 </div>
 
-                <a
+                {/* <a
                     href="tel:+18888128678"
                     className="fixed bottom-6 right-6 bg-orange-500 hover:bg-orange-600 text-white p-4 rounded-full shadow-lg transition"
                 >
                     <PhoneCall size={28} />
-                </a>
+                </a> */}
             </div>
 
             <div className="w-full bg-[#f8f9fb] py-20 px-6">
