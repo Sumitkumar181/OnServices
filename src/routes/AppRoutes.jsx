@@ -11,6 +11,7 @@ import QuickBooksDesktop from "../components/quickBooks/quickBooksDesktop/QuickB
 import VigiloraxHero from "../components/VigiloraxComponents/VigiloraxHero";
 import PrivacyPage from "../components/privacyPolicyComponents/PrivacyPage";
 import RefundPolicy from "../components/privacyPolicyComponents/RefundPolicy";
+import PrinterPage from "../pages/PrinterPage/PrinterPage";
 
 
 
@@ -79,6 +80,10 @@ const AppRoutes = createBrowserRouter([
             {
                 path: "Vigilorax",
                 element: <VigiloraxHero/>
+            },
+            {
+                path: "printer",
+                element: <PrinterPage/>
             },
             {
                 path: "privacy-policy",

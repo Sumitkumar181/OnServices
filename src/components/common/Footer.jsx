@@ -41,6 +41,7 @@ export default function Footer() {
                     <h3 className="text-lg font-semibold">More Links</h3>
                     <ul className="mt-4 space-y-2 text-gray-700 text-sm">
                         <li><Link to="/Vigilorax" >Vigilorax</Link></li>
+                        <li><Link to="/printer" >Printer</Link></li>
                         
                     </ul>
                 </div>
