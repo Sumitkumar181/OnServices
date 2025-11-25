@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { AiTwotonePrinter } from "react-icons/ai";
-import PrinterHelp from "../../assets/Printerhome.webp";
+import PrinterHelp from "../../assets/printerHelp.jpg";
 
 import { GoPlus } from "react-icons/go";
 import { HiMiniMinus } from "react-icons/hi2";
@@ -163,7 +163,7 @@ export default function PrinterServices() {
 
 
                     <div className="flex flex-col justify-center">
-                        <img src={PrinterHelp} alt="qbprovider" className="h-full w-full" />
+                        <img src={PrinterHelp} alt="qbprovider" className="h-96 w-full" />
                     </div>
 
                 </div>
