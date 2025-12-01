@@ -9,7 +9,7 @@ export default function PrinterHome() {
             
             <div className="w-full pt-18 bg-gray-900 text-white text-center py-3 font-semibold flex items-center justify-center gap-2">
                 <PhoneCall size={18} className="text-white" />
-                <a href="tel:+18888128678">Click to Call: 1-888-812-8678</a>
+                <a href="tel:+18888128678">Click to Call: (888) 812-8678</a>
             </div>
 
             
@@ -25,7 +25,7 @@ export default function PrinterHome() {
                         href="tel:+18888128678"
                         className="inline-block bg-gray-900 text-white px-8 py-3 rounded-full text-lg font-semibold shadow hover:bg-green-700 transition"
                     >
-                        Call Toll-Free: 1-888-812-8678
+                        Call Toll-Free: (888) 812-8678
                     </a>
 
                     <p className="text-lg leading-relaxed">

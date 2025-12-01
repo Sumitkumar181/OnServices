@@ -9,7 +9,7 @@ export default function HeroSection() {
                 href="tel:+18888128678"
                 className="text-white bg-blue-600 py-1.5 px-3 sm:px-4 rounded-full mb-4 font-medium text-base inline-block md:hidden"
             >
-                1-888-812-8678
+                (888) 812-8678
             </a>
 
             <p className="text-sm md:text-base font-medium text-black">

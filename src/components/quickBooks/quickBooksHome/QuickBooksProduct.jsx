@@ -171,7 +171,7 @@ export default function QuickBooksProduct() {
                             href="tel:+18888128678"
                             className="inline-block bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-8 rounded-full transition"
                         >
-                            Call Us At: 1-888-812-8678
+                            Call Us At: (888) 812-8678
                         </a>
 
                     </div>
@@ -296,7 +296,7 @@ export default function QuickBooksProduct() {
                             href="tel:+18888128678"
                             className="inline-block bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-8 rounded-full transition"
                         >
-                            Call Us for Limited Discount: 1-888-812-8678
+                            Call Us for Limited Discount: (888) 812-8678
                         </a>
 
                     </div>

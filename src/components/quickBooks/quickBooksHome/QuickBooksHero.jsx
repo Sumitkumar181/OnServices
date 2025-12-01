@@ -18,7 +18,7 @@ export default function QuickBooksHero() {
                       href="tel:+18888128678"
                       className="inline-block bg-green-600 text-white px-6 py-3 rounded-full text-lg font-semibold shadow hover:bg-green-700 transition"
                   >
-                      Call Toll-Free: 1-888-812-8678
+                      Call Toll-Free: (888) 812-8678
                   </a>
 
                   

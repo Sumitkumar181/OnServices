@@ -21,7 +21,7 @@ export default function CtaAction() {
                     className="bg-white text-blue-600 font-semibold py-3 px-6 sm:px-8 rounded-full shadow-md 
                                 hover:shadow-lg transition text-sm sm:text-base inline-block"
                 >
-                    Call 1-888-812-8678
+                    Call (888) 812-8678
                 </a>
             </div>
         </div>

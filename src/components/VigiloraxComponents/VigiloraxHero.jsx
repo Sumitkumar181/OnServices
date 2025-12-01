@@ -32,7 +32,7 @@ export default function VigiloraxHero() {
 
                 <div className="w-full bg-orange-500 text-white text-center py-3 font-semibold flex items-center justify-center gap-2">
                     <PhoneCall size={18} className="text-white" />
-                    <a href="tel:+18888128678">Click to Call: 1-888-812-8678</a>
+                    <a href="tel:+18888128678">Click to Call: (888) 812-8678</a>
                 </div>
 
                 <div
@@ -54,7 +54,7 @@ export default function VigiloraxHero() {
                         <p className="text-lg md:text-xl mb-4">
                             Questions?{" "}
                             <a href="tel:+18888128678" className="text-orange-400 font-semibold">
-                                1-888-812-8678
+                                (888) 812-8678
                             </a>
                         </p>
 
@@ -71,7 +71,7 @@ export default function VigiloraxHero() {
                             className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg shadow-lg font-semibold text-lg transition"
                         >
                             <PhoneCall size={20} />
-                            1-888-812-8678
+                            (888) 812-8678
                         </a>
                     </div>
                 </div>
@@ -167,7 +167,7 @@ export default function VigiloraxHero() {
                             <p className="text-sm mb-2">
                                 <strong>Phone:</strong>{" "}
                                 <a href="tel:+18888128678" className="text-blue-600 font-semibold">
-                                    1-888-812-8678
+                                    (888) 812-8678
                                 </a>
                             </p>
 

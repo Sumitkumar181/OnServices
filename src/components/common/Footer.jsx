@@ -52,7 +52,7 @@ export default function Footer() {
                     <div className="mt-4 space-y-3 text-gray-700 text-sm">
                         <p className="flex items-center space-x-2">
                             <Phone size={16} className="text-blue-600" />
-                            <span>1-888-812-8678</span>
+                            <span>(888) 812-8678</span>
                         </p>
                         <p className="flex items-center space-x-2">
                             <Mail size={16} className="text-blue-600" />

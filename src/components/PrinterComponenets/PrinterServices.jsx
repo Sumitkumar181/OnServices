@@ -155,7 +155,7 @@ export default function PrinterServices() {
                             href="tel:+18888128678"
                             className="inline-block bg-gray-900 hover:bg-gray-700 text-white font-medium py-3 px-8 rounded-full transition"
                         >
-                            Call Us: 1-888-812-8678
+                            Call Us: (888) 812-8678
                         </a>
 
                     </div>

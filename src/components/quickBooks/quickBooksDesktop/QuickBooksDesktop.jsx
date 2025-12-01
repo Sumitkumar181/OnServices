@@ -185,7 +185,7 @@ export default function QuickBooksDesktop() {
                                 href="tel:+18888128678"
                                 className="px-8 py-4 bg-[#0ca573] rounded-full text-white font-semibold text-lg shadow-lg hover:bg-[#0f8860] transition"
                             >
-                                Call Us At: 1-888-812-8678
+                                Call Us At: (888) 812-8678
                             </a>
 
                             <button className="px-8 py-4 rounded-full border border-gray-400 text-gray-300 font-semibold text-lg hover:bg-gray-700 transition">
@@ -307,7 +307,7 @@ export default function QuickBooksDesktop() {
                             href="tel:+18888128678"
                             className="border-2 border-white text-white font-semibold py-3 px-8 rounded-full hover:bg-white hover:text-black transition"
                         >
-                            Call Us: 1-888-812-867
+                            Call Us: (888) 812-8678
                         </a>
 
                     </div>

@@ -37,7 +37,7 @@ export default function Navbar() {
                         </Link>
                     ))}
                     <a href="tel:+18888128678" className="text-blue-500 font-medium text-base">
-                        1-888-812-8678
+                        (888) 812-8678
                     </a>
                 </div>
 
